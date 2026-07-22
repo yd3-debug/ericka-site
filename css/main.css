@@ -46,6 +46,7 @@ nav{display:flex;align-items:center;justify-content:space-between;height:74px;ga
 .hero h1{font-size:clamp(2.6rem,6vw,4.4rem);letter-spacing:-.01em}
 .hero h1 em{font-style:italic;color:var(--gold-d)}
 .hero p.lead{color:var(--soft);font-size:1.12rem;margin:1.4rem 0 1.8rem;max-width:34rem}
+.hero p.lead-me{color:var(--ink);font-weight:500;margin-top:-.8rem}
 .cta{display:flex;gap:.8rem;flex-wrap:wrap}
 .hi{display:flex;gap:1.6rem;margin-top:1.8rem;flex-wrap:wrap;align-items:center}
 .stars{color:#c79a52;letter-spacing:1px}
