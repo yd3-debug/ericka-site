@@ -283,6 +283,14 @@ footer .desc{max-width:22rem;line-height:1.6}
 .disc{font-size:12px;color:var(--soft);background:var(--cream);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-top:26px}
 .note{background:#fbf3e6;border:1px solid #e6d3ac;border-left:4px solid var(--gold);border-radius:10px;padding:14px 16px;margin:22px 0;font-size:13.5px;color:var(--soft)}
 .note b{color:var(--ink)}
+/* real-proof mural (whatsapp prints + antes/depois) */
+.proof{background:var(--cream)}
+.mural{columns:3;column-gap:16px;margin-top:.6rem}
+.mural figure{break-inside:avoid;margin:0 0 16px;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#fff;box-shadow:0 20px 44px -32px rgba(28,48,56,.55)}
+.mural img{width:100%;display:block}
+.mural figcaption{font-size:12px;color:var(--soft);text-align:center;padding:9px 10px;border-top:1px solid var(--line)}
+@media(max-width:860px){.mural{columns:2}}
+@media(max-width:520px){.mural{columns:1;column-gap:0;max-width:26rem;margin-left:auto;margin-right:auto}}
 @media(max-width:860px){
   .hero-ba,.chart{grid-template-columns:1fr}
   .grid,.quotes{grid-template-columns:1fr}
