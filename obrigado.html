@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Obrigada! · Clube Emagrecendo Sem Rebote | Ericka Barbosa</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#1c3038">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/main.css">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SHVP5NLDQ2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-SHVP5NLDQ2');
+  // Fire a purchase conversion when the client lands here after paying on Stripe.
+  try{
+    var params = new URLSearchParams(window.location.search);
+    var txn = params.get('session_id') || ('clube-' + Date.now());
+    gtag('event','purchase',{
+      transaction_id: txn,
+      value: 19,
+      currency: 'EUR',
+      items: [{item_id:'clube', item_name:'Clube Emagrecendo Sem Rebote', price:19, quantity:1}]
+    });
+  }catch(e){}
+</script>
+</head>
+<body>
+<div class="abar">★ <b>5,0</b> no Google · +200 pacientes atendidas · Atendimento 100% online para brasileiras no mundo todo</div>
+<header><div class="wrap"><nav>
+  <a class="brand" href="/"><img src="/img/logo.webp" alt="Ericka Barbosa Nutricionista"></a>
+  <div class="nl">
+    <a href="/">Início</a><a href="/sobre.html">Sobre</a><a href="/metodo.html">Método</a><a href="/planos.html">Planos</a><a href="/clube.html">Clube</a><a href="/resultados.html">Resultados</a><a href="/faq.html">Dúvidas</a><a href="/contato.html">Contato</a>
+  </div>
+  <div class="nav-right">
+    <a class="btn wa nav-wa" href="https://wa.me/393758110439?text=Ol%C3%A1%2C%20Ericka!%20Acabei%20de%20entrar%20no%20Clube." target="_blank" rel="noopener">Falar no WhatsApp</a>
+  </div>
+</nav></div></header>
+
+<main class="wrap" style="max-width:720px;margin:0 auto;padding:4.5rem 1.2rem;text-align:center">
+  <div class="crumb" style="justify-content:center"><a href="/">Início</a> / Obrigada</div>
+  <h1 style="font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,5vw,3rem);line-height:1.1;margin:.4rem 0 1rem">Seja bem-vinda ao Clube! 🌿</h1>
+  <p style="font-size:1.12rem;max-width:36rem;margin:0 auto 1.2rem">A sua assinatura foi confirmada. Em instantes você recebe tudo no seu e-mail, e a partir de agora chega conteúdo novo toda semana para você comer bem, sem dieta maluca.</p>
+  <p style="margin:0 auto 2rem">Ficou com alguma dúvida? Fala comigo no WhatsApp, respondo pessoalmente.</p>
+  <a class="btn wa" href="https://wa.me/393758110439?text=Ol%C3%A1%2C%20Ericka!%20Acabei%20de%20entrar%20no%20Clube%20e%20quero%20come%C3%A7ar." target="_blank" rel="noopener" style="margin:.3rem">Falar no WhatsApp</a>
+  <a class="btn gh" href="/" style="margin:.3rem">Voltar ao início</a>
+</main>
+
+<footer><div class="wrap" style="text-align:center;padding:2rem 1.2rem">
+  <div class="fcredit">Design por <a href="https://yektad.com" target="_blank" rel="noopener">YD</a></div>
+</div></footer>
+</body>
+</html>
